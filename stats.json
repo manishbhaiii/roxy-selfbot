@@ -1,0 +1,12 @@
+{
+  "totalMessages": 0,
+  "dailyMessages": 0,
+  "lastResetDay": "",
+  "uniqueUsers": [],
+  "dailyUsers": [],
+  "allTimeUsers": [],
+  "voiceActivity": {
+    "totalTime": 0,
+    "sessions": []
+  }
+} 

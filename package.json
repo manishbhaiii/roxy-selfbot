@@ -1,0 +1,30 @@
+{
+  "name": "discord_user_ai",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@discordjs/opus": "^0.10.0",
+    "@discordjs/voice": "^0.18.0",
+    "axios": "^1.9.0",
+    "discord.js-selfbot-v13": "^3.6.1",
+    "dotenv": "^16.5.0",
+    "ffmpeg-static": "^5.2.0",
+    "figlet": "^1.8.1",
+    "node-fetch": "^2.7.0",
+    "openai": "^4.98.0",
+    "qrcode": "^1.5.4",
+    "yt-search": "^2.10.4"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "global": false,
+  "enabledServers": [],
+  "enabledChannels": [
+    "1270620756690206730"
+  ],
+  "textTriggers": {
+    "test": [
+      "👍"
+    ]
+  },
+  "userTriggers": {}
+}

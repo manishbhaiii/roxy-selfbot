@@ -1,0 +1,32 @@
+{
+  "allowedUserIds": [
+    "user_id_1",
+    "user_id_2"
+  ],
+  "ai": {
+    "global": false,
+    "perGuild": {
+      "1288206912873300050": false,
+      "1269517112838324266": false
+    },
+    "perChannel": {
+      "1297894387010768927": false,
+      "1299623503263432815": true,
+      "1365314399912460292": true,
+      "1270620756690206730": true,
+      "1085738113520902156": false,
+      "1270624795549106227": false,
+      "1374338867217301554": true,
+      "1381681479326765057": true
+    }
+  },
+  "tagOff": [],
+  "blockedUsers": [],
+  "prefixes": {
+    "main": "!",
+    "aliases": [
+      ","
+    ]
+  },
+  "loggingServerId": "server_id for mirroring"
+}
