@@ -82,8 +82,10 @@ client.on('ready', async () => {
 });
 
 client.on('messageCreate', async (message) => {
-    // Ignore own messages
-    if (message.author.id === client.user.id) return;
+    // Only ignore own messages if they're not commands
+    if (message.author.id === client.user.id && 
+        !commandManager.startsWithPrefix(message.content.toLowerCase()) && 
+        message.content.toLowerCase() !== 'prefix') return;
 
     // Check if it's a command
     const isCommandOrPrefix = commandManager.startsWithPrefix(message.content.toLowerCase()) || 
@@ -234,4 +236,4 @@ process.on('unhandledRejection', error => {
 });
 
 // Login with user token
-client.login(process.env.USER_TOKEN).catch(console.error); 
+client.login(process.env.DISCORD_TOKEN).catch(console.error);
